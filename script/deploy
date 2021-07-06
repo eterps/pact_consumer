@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+cd "$(dirname "$0")/.."
+
+npx pact-broker can-i-deploy --pacticipant katacoda-consumer --version 1.0.0-someconsumersha --to prod

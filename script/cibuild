@@ -3,3 +3,4 @@ set -e
 cd "$(dirname "$0")/.."
 
 ./script/test
+./script/deploy
